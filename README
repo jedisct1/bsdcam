@@ -1,6 +1,6 @@
 
-This is BSDCam, a port of the ov511/ov518 driver from Linux
-to OpenBSD, DragonflyBSD, NetBSD and FreeBSD.
+This is BSDCam, a port of the ov511/ov518 in-kernel driver from Linux
+as a userland app for OpenBSD, DragonflyBSD, NetBSD and FreeBSD.
 
 The only dependency is the jpeg library.
 
