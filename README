@@ -1,0 +1,29 @@
+
+This is BSDCam, a port of the ov511/ov518 driver from Linux
+to OpenBSD, DragonflyBSD, NetBSD and FreeBSD.
+
+The only dependency is the jpeg library.
+
+Usage: bsdcam -f <output jpeg file name>
+             [-b]
+             [-d <usbgen device id>]
+             [-H 50|60]
+             [-i]
+             [-l]
+             [-m]
+             [-q <jpeg quality>]
+             [-u <uid>]
+             [-w <seconds>]
+
+-b : Enable banding filter
+-d : USB device is /dev/ugen<arg>
+-H : Change light frequency (50 or 60 Hz)
+-i : Ignore desynchronized frames
+-l : Enable backlight feature
+-m : Enable mirror mode
+-q : JPEG Quality (0-100, default 80)
+-u : Drop privileges to the given uid
+-w : Wait after every frame
+
+
+                                          -Frank Denis <j@pureftpd.org>
