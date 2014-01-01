@@ -3,7 +3,7 @@
  * BSDCam,
  * a webcam capture/streaming app for *BSD systems.
  * 
- * (C)opyleft 2003-2011 by Jedi/Sector One <j@pureftpd.org>
+ * (C)opyleft 2003-2014 by Jedi/Sector One <j@pureftpd.org>
  * 
  * Based upon the Linux kernel 2.6.0-test5 ov511 driver.
  * 
